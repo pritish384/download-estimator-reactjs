@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/download-estimator-reactjs/static/css/main.d9f52b9c.css",
+    "main.js": "/download-estimator-reactjs/static/js/main.38e01a2c.js",
+    "index.html": "/download-estimator-reactjs/index.html",
+    "main.d9f52b9c.css.map": "/download-estimator-reactjs/static/css/main.d9f52b9c.css.map",
+    "main.38e01a2c.js.map": "/download-estimator-reactjs/static/js/main.38e01a2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9f52b9c.css",
+    "static/js/main.38e01a2c.js"
+  ]
+}
