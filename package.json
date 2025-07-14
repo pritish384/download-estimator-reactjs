@@ -13,13 +13,17 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://pritish384.github.io/download-estimator-reactjs",
   "scripts": {
     "start": "concurrently \"npm run react\" \"npm run tailwind\"",
     "react": "react-scripts start",
     "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +47,7 @@
     "@tailwindcss/cli": "^4.1.11",
     "autoprefixer": "^10.4.21",
     "concurrently": "^9.2.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
   }
