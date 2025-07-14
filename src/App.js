@@ -1,3 +1,21 @@
+/**
+ * App component for estimating download time.
+ *
+ * Allows users to input total file size, finished file size (both in GB), and download speed (in Mbps).
+ * Calculates and displays the estimated remaining download time in hours, minutes, and seconds.
+ *
+ * State:
+ * - fileSize: string - Total file size in GB.
+ * - finishedFileSize: string - Finished file size in GB.
+ * - speed: string - Download speed in Mbps.
+ * - time: string|null - Estimated remaining time as a formatted string, or null if inputs are invalid.
+ *
+ * Effects:
+ * - Recalculates estimated time whenever fileSize, finishedFileSize, or speed changes.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered download time estimator UI.
+ */
 import React, { useState, useEffect } from "react";
 import './output.css';
 
